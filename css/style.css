@@ -1,0 +1,32 @@
+p{
+    text-align: center;
+}
+table{
+    margin:0 auto;
+    border-collapse: collapse;
+}
+tr>*{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+td:first-child,th:first-child{
+    border-left: none;
+}
+td:last-child>img{
+    width: 20px;
+    height: 20px;
+}
+#dodawanie td{
+    border-top:1px solid black;
+}
+
+input[type="text"]{
+    width: 60px;
+}
+input[name="captcha"]{
+    width: 50px;
+}
+table td>input{
+    width: 100%;
+}
